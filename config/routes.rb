@@ -1,6 +1,7 @@
 Rtest::Application.routes.draw do
   get "r_test/plotr"
-
+  get "test/test"
+  root :to => 'test#test'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
